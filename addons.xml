@@ -1,0 +1,20 @@
+<addon id="plugin.video.uksports" name="UKSports" version="0.0.1" provider-name="UKSports">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">UKSports ~ Home of Live TV, Football and general PPV Sporting</summary>
+		<description lang="en">This Add-on was made for private use, need any help feel free to email me at Help@uksports.info</description>
+		<platform>android</platform>
+		<forum>mailto:Help@uksports.info</forum>
+		<website>www.uksports.info</website>
+		<news></news>
+		<genre>livetv,movies,sports,uk</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
